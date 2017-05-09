@@ -43,7 +43,7 @@ function draw()
     translate(150, 150);            //x,y position in canvas 
     rotate(radians(frameCount));    //rotate with radians calculated by framecount number
     fill(13,147,185);		    //rgb color for the shape drawn
-    triangle(0, 0, 40, 0, 0, 40);   //create triangle: 3 sets of coordinates on the canvas
+    triangle(0, 0, 40, 0, 20, 40);   //create triangle: 3 sets of coordinates on the canvas
     pop();			    //restore original state
   }
   
